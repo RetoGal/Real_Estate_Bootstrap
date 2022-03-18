@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@576&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="./css/style-2.css">
+
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container-fluid bg-light">
+        <div class="container ">
+            <nav role="navigation" class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="index-1.html"><img src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class=" collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">REAL ESTATE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index-4.html">OUR SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index-5.html">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GUEST US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ARMENIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> <img src="./images/star.png" alt="star"> USD</a>
+                        </li>
+
+
+
+
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container  pt-5">
+        <div class="row d-flex align-items-center">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-12 ">
+                <ul class="list-unstyled d-flex my_list">
+                    <li class="botBorder"><a href="">Apartments</a></li>
+                    <li class="pl-5 pr-5"><a href="">Houses</a></li>
+                    <li><a href="">Comercial</a></li>
+                </ul>
+            </div>
+
+
+
+            <div class="col-xl-6 col-lg-6 col-md-6 ">
+                <ul class="list-unstyled my_list d-flex justify-content-md-end align-items-center">
+                    <li class="align-self-xl-center align-self-lg-center"><a href="">For Rent</a></li>
+                    <li class="align-self-xl-center align-self-lg-center pl-4 pr-4"><a href="">For Sale</a></li>
+                    <div class="selUsd  sel_usd">
+                        <select name="" id="" class="selUsd  m-0">
+                            <option value="">USD</option>
+                            <option value="">RUR</option>
+                            <option value="">AMD</option>
+                        </select>
+                    </div>
+                </ul>
+
+
+            </div>
+
+        </div>
+<form action="">
+        <div class="row">
+            <div class="col-xl-10 col-lg-10">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-6"> <label for="renting">Renting</label>
+                        <div class="sel">
+                            <select>
+                               
+                                <option value="monthly">Monthly</option>
+                                <option value="daily">Daily</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3  col-md-3 col-6">
+                        <label for="city">City</label>
+                        <div class="sel">
+                            <select>
+                                <option value="yerevan">Yerevan</option>
+                                <option value="vanadzor">Vanadzor</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3  col-md-3 col-6">
+                        <label for="region">Region</label>
+                        <div class="sel">
+                            <select>
+                                <option selected hidden>Select</option>
+                                <option value="lori">Lori</option>
+                                <option value="vanadzor">Tavush</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-xl-3 col-lg-3  col-md-3 col-6">
+                        <label for="rooms">Rooms</label>
+                        <div class="sel">
+                            <select >
+                                <option selected hidden>Select</option>
+                                <option value="one">One</option>
+                                <option value="two">Two</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3  col-md-3 col-6">
+                        <label for="price">Price</label>
+                        <div class="sel">
+                            <input type="number" placeholder="$100">
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-3  col-md-3 col-6 align-self-end ">
+                        <div class=" sel">
+                            <input type="number"   placeholder="$100">
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3  col-md-3 col-6">
+                        <label for="code">Code</label>
+                        <div class="sel">
+                            <input type="number" placeholder="$100">
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-3  col-md-3 col-6">
+                        <label for="layout">Layout</label>
+                        <div class="sel">
+                            <select>
+                                <option selected hidden>Select</option>
+                                <option value="">Lay</option>
+
+                            </select>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div
+                class="col-xl-2 col-lg-2 col-md-12 col-12  mt-3 text-sm-center mt-sm-3   text-md-center mt-md-3 mt-xl-4 mt-lg-4">
+                <button >Search</button>
+            </div>
+        </div>
+    </form>
+        <div class="shadowBox">
+            <div class="row hotelSection  p-md-5 p-lg-4  p-xl-4">
+
+                <div class="col-xl-6 col-lg-6 col-md-12 p-5 p-md-0  text-md-center ">
+                    <img src="images/bayron.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mt-md-5 mt-lg-0 mt-xl-0 pl-md-5 p-xl-0 p-lg-0">
+
+                    <div class="hotel_header mt-lg-5 mt-xl-5 mt-md-0 mt-sm-5 mt-5  ">
+
+                        <h2>Bayron</h2>
+                        <h4>Yerevan/Centre</h4>
+
+                    </div>
+                    <div class="olls  d-flex">
+
+                        <div class="info_hotel">
+                            <ol class="info_list list-unstyled">
+                                <li>Features</li>
+                                <li>3 Bedrooms</li>
+                                <li>5/3 Floor</li>
+                                <li>200 sqm</li>
+                                <li>New Bulding</li>
+                            </ol>
+                        </div>
+
+                        <div class="info_hotel">
+                            <ol class="info_list list-unstyled ml-xl-5 mr-xl-5">
+                                <li>Monthly</li>
+                                <li class="blue_usd">2.900 USD</li>
+                            </ol>
+                        </div>
+
+
+
+
+                        <div class="info_hotel code_hotel">
+                            <ol class="list-unstyled info_list">
+                                <li><span class="code_upd"><b>Code: </b></span>RCEA3248</li>
+                                <li><span class="code_upd"><b>Updated: </b></span>14.06.2021</li>
+                            </ol>
+                        </div>
+
+
+
+
+                    </div>
+                    <div
+                        class="btn d-flex justify-content-xl-end justify-content-lg-end justify-content-md-end pr-md-5">
+                        <a href="index-3.html"><b>Buy</b></a>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="shadowBox">
+            <div class="row hotelSection  p-md-5 p-lg-4  p-xl-4">
+
+                <div class="col-xl-6 col-lg-6 col-md-12 p-5 p-md-0 text-md-center   ">
+                    <img src="images/teryan.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mt-md-5 mt-lg-0 mt-xl-0 pl-md-5 p-xl-0 p-lg-0">
+
+                    <div class="hotel_header mt-lg-5 mt-xl-5 mt-md-0 mt-sm-5 mt-5  ">
+
+                        <h2>Teryan</h2>
+                        <h4>Yerevan/Centre</h4>
+
+                    </div>
+                    <div class="olls  d-flex">
+
+                        <div class="info_hotel">
+                            <ol class="info_list list-unstyled">
+                                <li>Features</li>
+                                <li>3 Bedrooms</li>
+                                <li>5/3 Floor</li>
+                                <li>200 sqm</li>
+                                <li>New Bulding</li>
+                            </ol>
+                        </div>
+
+                        <div class="info_hotel">
+                            <ol class="info_list list-unstyled ml-xl-5 mr-xl-5">
+                                <li>Monthly</li>
+                                <li class="blue_usd">1.200 USD</li>
+                            </ol>
+                        </div>
+
+
+
+
+                        <div class="info_hotel code_hotel">
+                            <ol class="list-unstyled info_list">
+                                <li><span class="code_upd"><b>Code: </b></span>RCEA3248</li>
+                                <li><span class="code_upd"><b>Updated: </b></span>14.06.2021</li>
+                            </ol>
+                        </div>
+
+
+
+
+                    </div>
+                    <div
+                        class="btn d-flex justify-content-xl-end justify-content-lg-end justify-content-md-end pr-md-5">
+                        <a href="index-3.html"><b>Buy</b></a>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="shadowBox">
+            <div class="row hotelSection  p-md-5 p-lg-4  p-xl-4">
+
+                <div class="col-xl-6 col-lg-6 col-md-12 p-5 p-md-0  text-md-center   ">
+                    <img src="images/amiryan.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mt-md-5 mt-lg-0 mt-xl-0 pl-md-5 p-xl-0 p-lg-0">
+
+                    <div class="hotel_header mt-lg-5 mt-xl-5 mt-md-0 mt-sm-5 mt-5  ">
+
+                        <h2>Amiryan</h2>
+                        <h4>Yerevan/Centre</h4>
+
+                    </div>
+                    <div class="olls  d-flex">
+
+                        <div class="info_hotel">
+                            <ol class="info_list list-unstyled">
+                                <li>Features</li>
+                                <li>3 Bedrooms</li>
+                                <li>5/3 Floor</li>
+                                <li>200 sqm</li>
+                                <li>New Bulding</li>
+                            </ol>
+                        </div>
+
+                        <div class="info_hotel">
+                            <ol class="info_list list-unstyled ml-xl-5 mr-xl-5">
+                                <li>Monthly</li>
+                                <li class="blue_usd">4.300 USD</li>
+                            </ol>
+                        </div>
+
+
+
+
+                        <div class="info_hotel code_hotel">
+                            <ol class="list-unstyled info_list">
+                                <li><span class="code_upd"><b>Code: </b></span>RCEA3248</li>
+                                <li><span class="code_upd"><b>Updated: </b></span>14.06.2021</li>
+                            </ol>
+                        </div>
+
+
+
+
+                    </div>
+                    <div
+                        class="btn d-flex justify-content-xl-end justify-content-lg-end justify-content-md-end pr-md-5">
+                        <a href="index-3.html"><b>Buy</b></a>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="shadowBox">
+            <div class="row hotelSection  p-md-5 p-lg-4  p-xl-4">
+
+                <div class="col-xl-6 col-lg-6 col-md-12  text-md-center   ">
+                    <img src="images/abovyan.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mt-md-5 mt-lg-0 mt-xl-0 pl-md-5 p-xl-0 p-lg-0">
+
+                    <div class="hotel_header mt-lg-5 mt-xl-5 mt-md-0 mt-sm-5 mt-5  ">
+
+                        <h2>Abovyan</h2>
+                        <h4>Yerevan/Centre</h4>
+
+                    </div>
+                    <div class="olls  d-flex">
+
+                        <div class="info_hotel">
+                            <ol class="info_list list-unstyled">
+                                <li>Features</li>
+                                <li>3 Bedrooms</li>
+                                <li>5/3 Floor</li>
+                                <li>200 sqm</li>
+                                <li>New Bulding</li>
+                            </ol>
+                        </div>
+
+                        <div class="info_hotel">
+                            <ol class="info_list list-unstyled ml-xl-5 mr-xl-5">
+                                <li>Monthly</li>
+                                <li class="blue_usd">1.500 USD</li>
+                            </ol>
+                        </div>
+
+
+
+
+                        <div class="info_hotel code_hotel">
+                            <ol class="list-unstyled info_list">
+                                <li><span class="code_upd"><b>Code: </b></span>RCEA3248</li>
+                                <li><span class="code_upd"><b>Updated: </b></span>14.06.2021</li>
+                            </ol>
+                        </div>
+
+
+
+
+                    </div>
+                    <div
+                        class="btn d-flex justify-content-xl-end justify-content-lg-end justify-content-md-end pr-md-5">
+                        <a href="index-3.html"><b>Buy</b></a>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+   
+    <div class="container-fluid bg-light footer mt-5">
+        <div class="container ">
+            <div class="row justify-content-between p-2 footer_block">
+                <div class="col-12 "><img src="images/logo.png" alt=""></div>
+                <div class="col-xl-2 col-lg-2 col-md-6  ">
+                    <ul class="list-unstyled">
+                        <li>Tel: 374 10 53 00 73</li>
+                        <li>Mob: 374 77 04 04 46</li>
+                        <li>Email:info@mail.ru</li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 d-none d-xl-block d-lg-block ">
+                    <ul class="list-unstyled">
+                        <li>HOME</li>
+                        <li>REAL ESTATE</li>
+                        <li>OUR SERVICES</li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-2 col-lg-2 col-md-2 d-none d-xl-block d-lg-block  ">
+                    <ul class="list-unstyled">
+                        <li>CONTACT US</li>
+                        <li>ABOUT US</li>
+                        <li>ARMENIA</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-12 p-md-0 align-self-center footer_icons text-md-right text-sm-left">
+                    <div class=" footer_icon">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/"> <i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.pinterest.com/"> <i class="fab fa-pinterest"></i></a>
+                    </div>All rights reserved © 2021 Elate Real Estate</div>
+
+            </div>
+
+        </div>
+    </div>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        
+</body>
