@@ -1,0 +1,117 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    
+  }
+  
+  
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #FFD078;
+  
+  }
+
+  .row .my_list_header{
+    border: none;
+    padding: 0;
+    line-height: 25px;
+    color: black;
+    
+   
+    
+  }
+
+  .list_header{
+    color: rgb(0, 0, 0);
+    line-height: 35px;
+    }
+
+
+
+    .my_lists {
+        padding: 70px 0 50px;
+    }
+   .row .my_list{
+        border: none;
+        padding: 0;
+        line-height: 25px;
+        color: rgba(0, 0, 0, 0.438);
+      }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_icon i {
+
+    color: #878b98;
+    font-size: 26px;
+    padding: 0 10px 15px 10px;
+  }
+  
+  
+  .row li {
+    color:rgba(0, 0, 0, 0.582)
+  }
+  
+  
+  
+  
+  .footer_icons p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.295);
+        
+    }
+    
+    
+    
+    
+    .footer_icon i {
+    
+        color: #878b98;
+        font-size: 30px;
+        padding: 10px;
+      }
+      
+      
+      .footer_block li {
+        color:rgba(0, 0, 0, 0.582)
+      }
+  
+  
+
+
+      @media only screen and (min-width: 990px) and (max-width: 1115px){
+        a{
+          font-size: 13px;
+        }
+       }
+   
+   
+   
+       @media only screen and (max-width:470px){
+         p{
+          font-size: 12px;
+         }
+   
+       }
