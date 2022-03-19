@@ -1,0 +1,119 @@
+*{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.644);
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FFD078;
+
+}
+.my_cont{
+  padding: 50px;
+}
+
+
+.row{
+  margin: 0;
+}
+.hotel_section{
+  margin-top: 50px;
+}
+
+.hotel_section img {
+  border-radius: 20px;
+}
+.hotel_text{
+  padding: 50px;
+}
+
+
+p{
+  text-align: justify;
+}
+
+
+
+.seeMore{
+  width: 100px;
+  line-height: 30px;
+  border-radius: 20px;
+  border: none;
+  color: black;
+  background-color: #FFD078
+}
+
+
+.btn-link:hover {
+  color: black;
+  text-decoration: none;
+  background-color: #ffc14f;;
+  border-color: none;
+
+
+}
+
+
+
+
+
+
+
+.footer_icon i {
+
+  color: #878b98;
+  font-size: 26px;
+  padding: 0 10px 15px 10px;
+}
+
+
+.row li {
+  color:rgba(0, 0, 0, 0.582)
+}
+
+
+
+
+.footer_icons p{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.295);
+      
+  }
+  
+  
+  
+  
+  .footer_icon i {
+  
+      color: #878b98;
+      font-size: 30px;
+      padding-right: 10px;
+    }
+    
+    
+    .footer_block li {
+      color:rgba(0, 0, 0, 0.582)
+    }
+
+
+
+
+
+
+    @media only screen and (min-width: 990px) and (max-width: 1115px){
+     a{
+       font-size: 13px;
+     }
+    }
+
+
+
+    @media only screen and (max-width:470px){
+      p{
+       font-size: 12px;
+      }
+
+    }
